@@ -1,4 +1,5 @@
-This project contains below mentioned 5 sections:
+ ***This project contains below mentioned sections:***
+ 
 - Introduction
 - Background
 - Tools used
