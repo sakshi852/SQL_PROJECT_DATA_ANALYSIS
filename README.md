@@ -79,7 +79,7 @@ limit 10
 High-paying roles include traditional data analysts, senior positions like Directors and Principal Analysts, and specialized roles such as Marketing Analysts and AV Performance Analysts.
 
 
-![Top Paying Data Analyst Jobs and Average Salary](assets\Gemini_Chart_Image_45ioil45ioil45io.png)
+![Top Paying Data Analyst Jobs and Average Salary](job_data_analysis/assets/Gemini_Chart_Image_45ioil45ioil45io.png)
 *Bar chart visualizing the salary for the top 10 data analyst jobs, Gemini Ai generated this chart using my sql query results*
 
 
@@ -120,7 +120,7 @@ The job listings reflect a diverse range of tools and technologies that employer
    * *Emerging Technologies*: The inclusion of tools like PySpark, Jupyter, and Pandas indicates a demand for skills in handling large datasets and performing advanced analytics.
    * *Traditional Tools*: Despite the emphasis on new technologies, traditional tools like Excel and PowerPoint remain relevant, showing that foundational skills are still necessary alongside modern tech competencies.
 
-![Top Paying Data Analyst Jobs-skills](.job_data_analysis/assets/Gemini_Chart_Image_e5y49ne5y49ne5y4.png)
+![Top Paying Data Analyst Jobs-skills](job_data_analysis/assets/Gemini_Chart_Image_e5y49ne5y49ne5y4.png)
 
 *Bar chart visualizing the skills associated with the top paying data analyst jobs, Gemini Ai generated this chart using my sql query results*
 
@@ -147,7 +147,7 @@ limit 10;
 The most in-demand skills for data analysts, irrespective of salary, include SQL, Excel, Python, and Tableau, with SQL being the most sought-after skill, followed by Excel, Python, and Tableau, indicating a strong emphasis on data management, analysis, and visualization capabilities.
 
 
-![Most in-demand skills](job_data_analysis/Code_Generated_Image.png)
+![Most in-demand skills](job_data_analysis/assets/Code_Generated_Image.png)
 
 
 *Bar chart visualizing the most in-demand skills for data analyst jobs, Gemini Ai generated this chart using my sql query results*
