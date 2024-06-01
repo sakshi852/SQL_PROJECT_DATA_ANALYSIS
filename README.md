@@ -1,4 +1,4 @@
-This porject contains below mentioned 5 sections
+This project contains below mentioned 5 sections:
 - Introduction
 - Background
 - Tools used
@@ -15,6 +15,7 @@ This project focuses on exploring Data Analyst roles, with an emphasis on identi
 - Identify top-paying jobs for Data Analysts
 - Discover the most in-demand skills
 - Find the optimal skills where high salary meets high demand
+- Checking the demands of data analyst jobs in each month
 
 🔗 **Check the SQL queries here**: [📂 Job Data Analysis](/job_data_analysis/)
 
