@@ -120,7 +120,7 @@ The job listings reflect a diverse range of tools and technologies that employer
    * *Emerging Technologies*: The inclusion of tools like PySpark, Jupyter, and Pandas indicates a demand for skills in handling large datasets and performing advanced analytics.
    * *Traditional Tools*: Despite the emphasis on new technologies, traditional tools like Excel and PowerPoint remain relevant, showing that foundational skills are still necessary alongside modern tech competencies.
 
-![Top Paying Data Analyst Jobs-skills](.job_data_analysis\assets\Gemini_Chart_Image_e5y49ne5y49ne5y4.png)
+![Top Paying Data Analyst Jobs-skills](.job_data_analysis/assets/Gemini_Chart_Image_e5y49ne5y49ne5y4.png)
 
 *Bar chart visualizing the skills associated with the top paying data analyst jobs, Gemini Ai generated this chart using my sql query results*
 
@@ -147,7 +147,7 @@ limit 10;
 The most in-demand skills for data analysts, irrespective of salary, include SQL, Excel, Python, and Tableau, with SQL being the most sought-after skill, followed by Excel, Python, and Tableau, indicating a strong emphasis on data management, analysis, and visualization capabilities.
 
 
-![Most in-demand skills](job_data_analysis\Code_Generated_Image.png)
+![Most in-demand skills](job_data_analysis/Code_Generated_Image.png)
 
 
 *Bar chart visualizing the most in-demand skills for data analyst jobs, Gemini Ai generated this chart using my sql query results*
@@ -282,7 +282,7 @@ order by extract(month from job_posted_date)
 * **Potential Correlation**: While not explicitly stated, there might be a correlation between the number of job postings and average salaries. Months with higher demand, like January and June, might coincide with higher salaries as companies compete for top talent.
 
 
-![Month wise demand and average salary](job_data_analysis\assets\Screenshot.jpg)
+![Month wise demand and average salary](job_data_analysis/assets/Screenshot.jpg)
 *Bar chart visualizing the demand and line chart visualize the average salary for data analyst jobs in each month, Chatgpt helps me in generating this chart*
 
 
