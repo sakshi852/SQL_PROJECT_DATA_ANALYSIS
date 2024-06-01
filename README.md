@@ -37,6 +37,7 @@ These are the questions that I answered through the queries:
 3. 💼 **What are the most in-demand skills for data analysts?**
 4. 💰 **Which skills correlate with higher salaries?**
 5. 💡 **What are the most optimal skills that combine high salary and demand?**
+6. 📊 **How does demand of data analyst jobs varies in each month?**
 
 # Tools Used
 - **SQL**: Executed SQL queries to analyze the dataset.
@@ -75,13 +76,16 @@ limit 10
   * Finance: SmartAsset
   * Healthcare: Uclahealthcareers
   * Inclusion and IT: Inclusively, Get It Recruit - Information Technology
-- **Job Title Varieties**
+- **Job Title Varieties**:
 High-paying roles include traditional data analysts, senior positions like Directors and Principal Analysts, and specialized roles such as Marketing Analysts and AV Performance Analysts.
 
 
 ![Top Paying Data Analyst Jobs and Average Salary](job_data_analysis/assets/Gemini_Chart_Image_45ioil45ioil45io.png)
+
 *Bar chart visualizing the salary for the top 10 data analyst jobs, Gemini Ai generated this chart using my sql query results*
 
+---
+---
 
 2. **What skills are required for these jobs?**
 ```sql
@@ -124,6 +128,9 @@ The job listings reflect a diverse range of tools and technologies that employer
 
 *Bar chart visualizing the skills associated with the top paying data analyst jobs, Gemini Ai generated this chart using my sql query results*
 
+---
+---
+
 3. **What are the most in-demand skills for Data analyst?**
 ```sql
 select 
@@ -152,8 +159,9 @@ The most in-demand skills for data analysts, irrespective of salary, include SQL
 
 *Bar chart visualizing the most in-demand skills for data analyst jobs, Gemini Ai generated this chart using my sql query results*
 
-
-4. **what are the top paying skills for Data analyst role?**
+---
+---
+4. **What are the top paying skills for Data analyst role?**
 
 ```sql
 select 
@@ -193,6 +201,9 @@ limit 30
 | pandas         | 151,821            |
 | golang         | 145,000            |
 
+
+---
+---
 
 5. **What are top optimal skills for Data Analyst Roles?**
 
@@ -252,6 +263,9 @@ order by
 | R             | Programming    | 148    | $100,499         |
 | Redshift      | Cloud          | 16     | $99,936          |
 
+---
+---
+
 6. **What are the demands of data analyst jobs in each month**
 
 ```sql
@@ -271,13 +285,11 @@ order by extract(month from job_posted_date)
 
 📊 **Key Insights**:
 
-* **Seasonal Fluctuations**: There appears to be some seasonal variability in the number of job postings. Months like January, June, and July show higher job postings, possibly due to new fiscal periods or hiring cycles.
+* **Seasonal Fluctuations**: There appears to be some seasonal variability in the number of job postings. Months like January, July and August show higher job postings, possibly due to new fiscal periods or hiring cycles.
 
 * **Salary Variation**: While the number of job postings fluctuates, the average salary also shows some variations. For instance, February and August have relatively higher average salaries compared to other months, indicating potential periods of higher demand or competition for skilled analysts.
 
 * **Stable Demand**: Despite fluctuations, there's a consistent demand throughout the year, with most months having job postings ranging from 32 to 65. This suggests that data analyst roles remain in demand across different seasons and business cycles.
-
-* **End-of-Year Patterns**: Towards the end of the year, from October to December, there's a slight dip in both the number of job postings and average salaries. This might be attributed to factors like budget constraints or companies focusing on closing out the year rather than hiring.
 
 * **Potential Correlation**: While not explicitly stated, there might be a correlation between the number of job postings and average salaries. Months with higher demand, like January and June, might coincide with higher salaries as companies compete for top talent.
 
@@ -288,23 +300,19 @@ order by extract(month from job_posted_date)
 
 # Conclusion
 
-Understanding Data Analyst Job Trends and Optimal Skills
+### 📈 Understanding Data Analyst Job Trends and Optimal Skills
 
-* ***Data Analyst Job Trends***:
+#### 🗓️ *Data Analyst Job Trends*:
+The demand for data analyst jobs fluctuates throughout the year, with notable peaks in **January, July, and August**, while it tends to decrease towards the mid-start of the year. Average salaries for data analyst positions also vary, showing a general trend of fluctuations but with some months experiencing higher averages than others.
 
-The demand for data analyst jobs fluctuates throughout the year, with notable peaks in February, June, and July, while it tends to decrease towards the end of the year.
-Average salaries for data analyst positions also vary, showing a general trend of fluctuations but with some months experiencing higher averages than others.
+#### 💡 *Optimal Skills Analysis*:
+The analysis of optimal skills reveals a mix of programming languages, cloud platforms, libraries, and analyst tools. 
 
-* ***Optimal Skills Analysis***:
+- **Programming Languages**: Python, SQL, R, and JavaScript are among the top programming languages in demand, with **Python** leading both in demand and average salary.
+- **Cloud Platforms**: Databricks, Snowflake, Azure, AWS, and BigQuery are highly sought after, indicating the growing importance of cloud computing in data analysis.
+- **Analyst Tools**: Tableau, Power BI, Looker, and Excel remain crucial for data visualization and analysis, with **Tableau** leading in demand and average salary.
 
-The analysis of optimal skills reveals a mix of programming languages, cloud platforms, libraries, and analyst tools.
-Python, SQL, R, and JavaScript are among the top programming languages in demand, with Python leading both in demand and average salary.
-Cloud platforms like Databricks, Snowflake, Azure, AWS, and BigQuery are highly sought after, indicating the growing importance of cloud computing in data analysis.
-Analyst tools such as Tableau, Power BI, Looker, and Excel remain crucial for data visualization and analysis, with Tableau leading in demand and average salary.
+#### 🔍 *Insights*:
+Professionals seeking to enter or advance in the data analyst field should prioritize acquiring skills in **Python, SQL**, and cloud platforms like **Databricks and Snowflake**.
 
-* ***Insights***:
-
-Professionals seeking to enter or advance in the data analyst field should prioritize acquiring skills in Python, SQL, and cloud platforms like Databricks and Snowflake.
-
-Additionally, proficiency in popular analyst tools like Tableau and Power BI can significantly enhance job prospects and earning potential.
-Continuous learning and staying updated with emerging technologies and tools are essential to remain competitive in the dynamic field of data analysis.
+Additionally, proficiency in popular analyst tools like **Tableau** and **Power BI** can significantly enhance job prospects and earning potential. Continuous learning and staying updated with emerging technologies and tools are essential to remain competitive in the dynamic field of data analysis.
